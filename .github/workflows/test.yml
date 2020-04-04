@@ -1,12 +1,11 @@
 on:
   push:
-    branches:
-      - '!master'
-      - '*'
   pull_request:
     branches:
       - '*'
-
+  branches:
+    - '*'
+    - '!master'
 
 name: Test
 
