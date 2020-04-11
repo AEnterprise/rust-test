@@ -12,3 +12,7 @@ twilight-gateway = { version = "0.1.0", git = "https://github.com/twilight-rs/tw
 twilight-model = { version = "0.1.0", git = "https://github.com/twilight-rs/twilight.git" }
 futures = "0.3"
 tokio = { version = "0.2", features = ["macros", "rt-threaded"] }
+toml = "0.5.6"
+serde = { version = "1.0", features = ["derive"] }
+syn = { version = "1.0.17", features = ["full", "derive", "extra-traits"] }
+test_macro = {path = "test_macro"}
